@@ -3,7 +3,7 @@ from google.genai import types
 from dotenv import load_dotenv
 import os
 
-load_dotenv(dotenv_path="AI Project1/.venv/.env")
+load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
